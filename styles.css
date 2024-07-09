@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #18191a, #19191a, #18191a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #18191a, #272829, #18191a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+hr {
+    width: 100%;
+}
+
+.cipher {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.emoji-clue {
+    text-align: center;
+}
+
+.quote-clue {
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #eef2f3, #8e9eab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+}
